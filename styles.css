@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  /* Add any desired styling for the items */
+  width: 200px; /* Example width, adjust as needed */
+  height: 200px; /* Example height, adjust as needed */
+  margin-bottom: 10px; /* Example margin, adjust as needed */
+}
